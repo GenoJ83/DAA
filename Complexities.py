@@ -102,7 +102,7 @@ sorts = [
     {"name": "Heap Sort", "sort": lambda A: heap_sort(A)}
 ]
 
-# Test sizes for input data
+# Testing sizes for input data
 elements = np.array([i * 1000 for i in range(1, 15)])
 
 # Plotting setup

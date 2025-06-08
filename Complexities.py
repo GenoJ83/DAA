@@ -109,7 +109,7 @@ elements = np.array([i * 1000 for i in range(1, 15)])
 plt.xlabel('Size of n')
 plt.ylabel('Time Complexity (seconds)')
 
-# Measure and plot time for each algorithm
+# Measuring and plot time for each algorithm
 for sort in sorts:
     times = []
     for n in elements:

@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 
-# Helper function for insertion sort
+# Helper function 
 def swap(lst, i, j):
     temp = lst[i]
     lst[i] = lst[j]
